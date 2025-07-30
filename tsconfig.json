@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "rootDir": "./",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "strict": true
+  },
+  "include": [
+    "backend-test-submission/**/*",
+    "Logging Middleware/**/*"
+, "frontend-test-submission/src/logging/logger.ts"  ],
+  "exclude": ["dist", "node_modules"]
+}
